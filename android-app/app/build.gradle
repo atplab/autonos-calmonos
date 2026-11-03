@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.atplab.autonoscalmonos'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.atplab.autonoscalmonos'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
